@@ -12,11 +12,11 @@ const Cards = () => {
         <div className='cardcontainer flex gap-5 h-[50vh] lg:w-1/2 w-full rounded-xl'>
             <div className='card w-1/2 h-full bg-gray-900 rounded-xl flex items-center justify-center relative'>
                 <img src="https://ochi.design/wp-content/uploads/2022/04/logo002.svg"></img>
-                <button className='absolute px-5 py-1 rounded-full border-2 left-10 bottom-10 text-[1.5vw] text-white'>Rating5.0</button>
+                <button className='absolute lg:px-5 px-2 py-1 rounded-full border-2 left-10 bottom-10 text-[1.5vw] text-white'>Rating5.0</button>
             </div>
             <div className='card w-1/2 h-full bg-gray-900 rounded-xl flex items-center justify-center relative'>
                 <img className='w-[6vw] h-[6vw] rounded-full' src="https://ochi.design/wp-content/uploads/2022/04/logo003.png"></img>
-                <button className='absolute px-5 py-1 rounded-full border-2 left-10 bottom-10 text-[1.5vw] text-white'>Business</button>
+                <button className='absolute lg:px-5 px-2 py-1 rounded-full border-2 left-10 bottom-10 text-[1.5vw] text-white'>Business</button>
             </div>
         </div>
 

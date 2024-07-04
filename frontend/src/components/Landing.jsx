@@ -17,7 +17,7 @@ const Landing = () => {
           })
           }
         </div>
-        <div className='flex justify-between items-center py-5 lg:px-20 px-10 border-t-[1px] border-zinc-700 mt-32'>
+        <div className='flex gap-[2vw] justify-between items-center py-5 lg:px-20 px-10 border-t-[1px] border-zinc-700 mt-32'>
           {["For public and private companies","From the first pitch to IPO"].map((item,index)=>{
               return(<p key={index} className='lg:text-md text-[10px] text-white font-light tracking-tight leading-none'>{item}</p>)
           })}

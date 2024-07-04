@@ -18,7 +18,7 @@ const Footer = () => {
         </div>
         <div className='w-1/2'>
              <h1 className='text-[5vw] font-semibold uppercase leading-none -mb-5'>Presentations</h1>
-             <div className='flex w-full  lg:text-xl text-[15px]'>
+             <div className='flex w-full  lg:text-xl text-[15px] gap-[2vw]'>
                 <div className='w-1/2  justify-start flex flex-col gap-5  items-center mt-10 underline'>
                    <a>Instagram</a>
                    <a>Facebook</a>
